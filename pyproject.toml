@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "friend-imposter-llm"
+version = "0.1.0"
+description = "This repo will scrape data from Discord and X, load it through Pyspark into a SQL database in AWS, then utilizes that data to train an LLM."
+authors = ["Destiny Calvin,Colin Jensen"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pyspark = "^3.5.3"
+pytest = "^8.3.3"
+pytest-mock = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
